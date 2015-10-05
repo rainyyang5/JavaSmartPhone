@@ -1,0 +1,76 @@
+---------Print two models--------
+Focus Wagon ZTW:18445:5
+OptionSet:Color:10
+Fort Knox Gold Clearcoat Metallic, 0.0;
+ Liquid Grey Clearcoat Metallic, 0.0;
+ Infra-Red Clearcoat, 0.0;
+ Grabber Green Clearcoat Metallic, 0.0;
+ Sangria Red Clearcoat Metallic, 0.0;
+ French Blue Clearcoat Metallic, 0.0;
+ Twilight Blue Clearcoat Metallic, 0.0;
+ CD Silver Clearcoat Metallic, 0.0;
+ Pitch Black Clearcoat, 0.0;
+ Cloud 9 White Clearcoat, 0.0;
+OptionSet:Transmission:2
+automatic, 0.0;
+ standard, -815.0;
+OptionSet:BrakesTraction Control:3
+standard, 0.0;
+ ABS, 400.0;
+ Advanced ABS, 1625.0;
+OptionSet:Air Bags:2
+none, 0.0;
+ selected, 250.0;
+OptionSet:Power Moonroof:2
+none, 0.0;
+ selected, 595.0;
+
+Toyota:20000:5
+OptionSet:Color:2
+Write, 1000.0;
+ Liquid Grey Clearcoat Metallic, 0.0;
+OptionSet:Transmission:2
+automatic, 0.0;
+ standard, -900.0;
+OptionSet:BrakesTraction Control:2
+standard, 0.0;
+ ABS, 400.0;
+OptionSet:Air Bags:2
+none, 0.0;
+ selected, 500.0;
+OptionSet:Power Moonroof:3
+none, 0.0;
+ selected, 500.0;
+ advanced, 1000.0;
+
+---------Sync update price--------
+The new option price is: 1.0
+The new option price is: 2.0
+The new option price is: 3.0
+---------Sync update option set name--------
+The new option set name is: Transmission2
+The new option set name is: Transmission3
+The new option set name is: Transmission4
+---------Async update price--------
+The new option price is: 1.0
+The new option price is: 2.0
+The new option price is: 3.0
+---------Async update option set name--------
+The new option set name is: Air Bags2
+The new option set name is: Air Bags3
+The new option set name is: Air Bags4
+---------Sync delete optionset & option--------
+The option standard has been deleted.
+The option set Power Moonroof has been deleted.
+fail to delete option set Power Moonroof. The option set may already be deleted.
+fail to delete option set Power Moonroof. The option set may already be deleted.
+fail to delete option set Power Moonroof. The option set may already be deleted.
+---------Async delete--------
+The option set Power Moonroof has been deleted.
+The option standard has been deleted.
+ERROR: cannot delete optionset
+ERROR: cannot delete optionset
+ERROR: cannot delete optionset
+Fail to delete option set Power Moonroof
+Fail to delete option set Power Moonroof
+Fail to delete option set Power Moonroof
